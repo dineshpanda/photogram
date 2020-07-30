@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
+  gem "dotenv-rails"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -41,3 +42,5 @@ gem 'devise', '~> 4.7.2'
 gem 'ideas_generators', github: 'firstdraft/ideas_generators'
 gem 'web_git', github: 'firstdraft/web_git'
 gem 'activeadmin', '2.2.0'
+gem 'carrierwave'
+gem 'cloudinary'
