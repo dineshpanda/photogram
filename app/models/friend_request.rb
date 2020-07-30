@@ -29,4 +29,6 @@ class FriendRequest < ApplicationRecord
 
   # Scopes
 
+  scope :accepted, -> { where(:id => 0) }
+
 end
