@@ -30,4 +30,8 @@ class FriendRequest < ApplicationRecord
   # Scopes
 
   scope :accepted, -> { where(id: 0) }
+
+  def to_s
+    sender.to_s
+  end
 end

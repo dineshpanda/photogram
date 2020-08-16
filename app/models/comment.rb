@@ -14,4 +14,8 @@ class Comment < ApplicationRecord
   validates :body, presence: true
 
   # Scopes
+
+  def to_s
+    body
+  end
 end
