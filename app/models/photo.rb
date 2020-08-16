@@ -57,4 +57,8 @@ class Photo < ApplicationRecord
   validates :owner_id, presence: true
 
   # Scopes
+
+  def to_s
+    caption
+  end
 end

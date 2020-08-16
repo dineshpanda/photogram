@@ -1,8 +1,6 @@
 AllCops:
   Exclude:
-    - 'db/**/*'
-    - 'config/**/*'
-    - 'bin/**/*'
+    - db/schema.rb
 
 require:
   - rubocop-rails
